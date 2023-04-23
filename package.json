@@ -1,9 +1,6 @@
 {
-    "name": "@rappasoft/laravel-boilerplate",
-    "author": "rappasoft rappa819@gmail.com",
-    "private": true,
-    "license": "MIT",
-    "scripts": {
+    
+  "scripts": {
         "dev": "cross-var $npm_execpath run development",
         "development": "cross-env NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "cross-var $npm_execpath run development -- --watch",
